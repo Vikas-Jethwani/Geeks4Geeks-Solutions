@@ -32,5 +32,5 @@ int main()
         
         cout<<max_all<<endl;
     }
-	return 0;
+    return 0;
 }
