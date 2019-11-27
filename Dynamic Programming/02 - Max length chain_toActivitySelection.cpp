@@ -24,7 +24,7 @@ bool myComp(const val &p1, const val &p2)
         return p1.first < p1.second;
 }
 
-int maxChainLen(struct val p[],int n)
+int maxChainLen(struct val p[], int n)
 {
     // Sort based on 2nd value
     sort(p, p+n, myComp);
