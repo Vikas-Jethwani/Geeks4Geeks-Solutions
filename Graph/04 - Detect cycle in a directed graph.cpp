@@ -3,7 +3,7 @@
 // StAn
 using namespace std;
 
-bool dfs(int node, vector<int> adj[], int visited)
+bool dfs(int node, vector<int> adj[], int visited[])
 {
     if (visited[node] == 1) // To detect cycle, save this node and add extra param of parent.
         return true;
