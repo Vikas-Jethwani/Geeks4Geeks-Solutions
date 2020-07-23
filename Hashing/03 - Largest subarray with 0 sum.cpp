@@ -1,5 +1,6 @@
-#include<bits/stdc++.h>
-//Stan
+// Fall 7 times and Stand-up 8
+#include <bits/stdc++.h>
+// StAn
 using namespace std;
 
 int maxLen(int A[],int n)
